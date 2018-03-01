@@ -118,7 +118,16 @@
 		<servlet-name>DruidStatView</servlet-name>
 		<url-pattern>/druid/*</url-pattern>
 	</servlet-mapping>
-	
+
+    <!--AliGenie test web -->
+    <servlet>
+        <servlet-name>AligenieTest</servlet-name>
+        <jsp-file>/WEB-INF/views/modules/aliGenie/AligenieTest.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AligenieTest</servlet-name>
+        <url-pattern>/aligenieTest</url-pattern>
+    </servlet-mapping>
 	<!-- CKFinder -->
 	<servlet>
 		<servlet-name>CKFinderConnectorServlet</servlet-name>
@@ -177,7 +186,7 @@
 		<servlet-name>ValidateCodeServlet</servlet-name>
 		<url-pattern>/servlet/validateCodeServlet</url-pattern>
 	</servlet-mapping>
-	
+
 	<!-- FineReport 
 	<servlet>
 		<servlet-name>ReportServer</servlet-name>
