@@ -1,17 +1,17 @@
-package com.thinkgem.jeesite.modules.aliGenie.service.impl;
+package com.thinkgem.jeesite.common.aliGenie.service.impl;
 
 import com.alibaba.da.coin.ide.spi.meta.ExecuteCode;
 import com.alibaba.da.coin.ide.spi.meta.ResultType;
 import com.alibaba.da.coin.ide.spi.standard.TaskQuery;
 import com.alibaba.da.coin.ide.spi.standard.TaskResult;
-import com.thinkgem.jeesite.modules.aliGenie.service.FoodHandler;
+import com.thinkgem.jeesite.common.aliGenie.service.CookerCtrlHandler;
 import org.springframework.stereotype.Component;
 
 /**
  * Created by Gavin on 2018/3/1.
  */
 @Component
-public class FoodHandlerImpl implements FoodHandler {
+public class CookerCtrlHandlerImpl implements CookerCtrlHandler {
     @Override
     public TaskResult execute(TaskQuery taskQuery){
         TaskResult result = new TaskResult();
@@ -20,7 +20,7 @@ public class FoodHandlerImpl implements FoodHandler {
 //                .stream()
 //                .collect(Collectors
 //                        .toMap(slotItem.slotItem.getIntentParameterName(), slotItem -> slotItem.getStandardValue()));
-        result.setReply("欢迎使用食材处理功能！");
+        result.setReply("欢迎使用厨具控制功能！");
         result.setExecuteCode(ExecuteCode.SUCCESS);
         result.setResultType(ResultType.RESULT);
         return result;

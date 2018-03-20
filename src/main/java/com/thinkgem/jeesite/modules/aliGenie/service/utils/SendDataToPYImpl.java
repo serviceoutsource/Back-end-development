@@ -8,7 +8,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class SendDataToPY {
+class SendDataToPY {
 
     private String getRecommend(String accessToken, Boolean isNewUser) {
         StringBuffer context = new StringBuffer();

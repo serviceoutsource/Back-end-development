@@ -1,12 +1,12 @@
-package com.thinkgem.jeesite.modules.aliGenie.service;
+package com.thinkgem.jeesite.common.aliGenie.service;
+
 
 import com.alibaba.da.coin.ide.spi.standard.TaskQuery;
 import com.alibaba.da.coin.ide.spi.standard.TaskResult;
 
 /**
- * Created by Gavin on 2018/3/1.
+ * Created by Gavin on 2018/2/27.
  */
-public interface FoodHandler {
-
+public interface MenuHandler {
     TaskResult execute(TaskQuery taskQuery);
 }

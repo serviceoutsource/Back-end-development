@@ -1,14 +1,14 @@
-package com.thinkgem.jeesite.modules.aliGenie.web;
+package com.thinkgem.jeesite.common.aliGenie.web;
 
 import com.alibaba.da.coin.ide.spi.standard.ResultModel;
 
 import com.alibaba.da.coin.ide.spi.standard.TaskQuery;
 import com.alibaba.da.coin.ide.spi.standard.TaskResult;
 import com.alibaba.da.coin.ide.spi.trans.MetaFormat;
-import com.thinkgem.jeesite.modules.aliGenie.service.CookerCtrlHandler;
-import com.thinkgem.jeesite.modules.aliGenie.service.FoodAdviceHandler;
-import com.thinkgem.jeesite.modules.aliGenie.service.FoodHandler;
-import com.thinkgem.jeesite.modules.aliGenie.service.MenuHandler;
+import com.thinkgem.jeesite.common.aliGenie.service.CookerCtrlHandler;
+import com.thinkgem.jeesite.common.aliGenie.service.FoodAdviceHandler;
+import com.thinkgem.jeesite.common.aliGenie.service.FoodHandler;
+import com.thinkgem.jeesite.common.aliGenie.service.MenuHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
